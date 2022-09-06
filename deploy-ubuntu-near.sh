@@ -15,8 +15,8 @@ PATH="$PATH"
 node -v
 npm -v
 sudo npm install -g near-cli
-export NEAR_ENV=shardnet
-echo 'export NEAR_ENV=testdnet' >> ~/.bashrc
+export NEAR_ENV=testnet
+echo 'export NEAR_ENV=testnet' >> ~/.bashrc
 near proposals
 
 echo  ===================near установлен ===================
